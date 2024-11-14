@@ -1,0 +1,331 @@
+<!DOCTYPE html> <!-- A Versão do HTML -->
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8"> <!-- Padrão de caracter -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compatível com celulares / computadores -->
+  <link rel="stylesheet" href="css/style_filmes.css">
+  
+  <title>Flixer</title> <!-- Título do Site -->
+</head>
+
+<body>
+  <audio src="audio/puma.mp3" class="audio"></audio>
+
+  <ul> <!-- Lista -->
+    <li>
+      <img src="imagem/logo flixer preta.jpeg" class="img-topo">
+    </li>
+    <li>
+      <img src="" class="img-topo">
+    </li>
+  </ul>
+
+  <div class="capa"> <!-- Caixa -->
+    <h1 class="capa-titulo">Pretty Little Liars</h1> <!-- Título -->
+    <p class="capa-descricao">Depois do desaparecimento de Alison, as adolescentes Spencer, Aria, Hanna e Emily, 
+      agora no ensino médio, têm um novo desafio: desvendar mensagens anônimas ameaçando contar seus segredos.
+    </p>
+    <a class="link-assistir">Assistir</a> <!-- Link -->
+    <a class="link-info">Mais Informações</a>
+  </div>
+
+  <video src="video/Pretty Little Liars.mp4" autoplay loop class="video"> </video>
+
+  <button id="botao-pesquisa">
+    <img id="lupa" src="img/Lupa.png" alt="">
+  </button>
+
+  <button class="botao-som">🔈</button>
+
+  <!-- Dois tipos de apelidos
+    Classes - Usar em vários itens
+    IDS - ÚNICO
+  -->
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <h2 class="titulo-carrossel">Filmes e series de Ação</h2>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/ação filme/Adrenalina maxima.jpeg" class="imagem-carrossel">
+        <img src="imagem/ação filme/anna.jpg" class="imagem-carrossel">
+        <img src="imagem/ação filme/crime sem saida.jpg" class="imagem-carrossel">
+        <img src="imagem/ação filme/jurassic park 3.jpg" class="imagem-carrossel">
+        <img src="imagem/ação filme/jurassic word 1.jpg" class="imagem-carrossel">
+        <img src="imagem/ação filme/jurrasic word 2.jpg" class="imagem-carrossel">
+        <img src="imagem/ação filme/jusrassic park 1.jpg" class="imagem-carrossel">
+      </div>
+        
+      
+      <div class="carousel-item">
+        <img src="imagem/Ação serie/maze runer.jpg" class="imagem-carrossel">
+        <img src="imagem/Ação serie/teen wolf.jpg" class="imagem-carrossel">
+        <img src="imagem/Ação serie/peaky blinders.jpg" class="imagem-carrossel">
+        <img src="imagem/Ação serie/echo.jpg" class="imagem-carrossel">
+        <img src="imagem/Ação serie/24hrs.jpg" class="imagem-carrossel">
+        <img src="imagem/Ação serie/narcos.jpg" class="imagem-carrossel">
+        <img src="imagem/Ação serie/vikins.jpg" class="imagem-carrossel">
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <!---CARRROSEL DRAMA -->
+  <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+    <h2 class="titulo-carrossel">Filmes e series drama</h2>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/drama filme/12 anos de esvravidão.jpeg" class="imagem-carrossel">
+        <img src="imagem/drama filme/um estranho do ninho.jpg" class="imagem-carrossel">
+        <img src="imagem/drama filme/azul.jpg" class="imagem-carrossel">
+        <img src="imagem/drama filme/moonlight.jpg" class="imagem-carrossel">
+        <img src="imagem/drama filme/central do Brasil.jpeg" class="imagem-carrossel">
+        <img src="imagem/drama filme/help.jpg" class="imagem-carrossel">
+        <img src="imagem/drama filme/sociedade de poetas mortos.jpg" class="imagem-carrossel">
+      </div>
+      
+      <div class="carousel-item">
+        <img src="imagem/drama serie/Deadly Class _ syfy.jpg" class="imagem-carrossel">
+        <img src="imagem/drama serie/Pll.jpg" class="imagem-carrossel">
+        <img src="imagem/drama serie/greys anatomy.jpg" class="imagem-carrossel">
+        <img src="imagem/drama serie/riverdale.jpg" class="imagem-carrossel">
+        <img src="imagem/drama serie/impuros.jpg" class="imagem-carrossel">
+        <img src="imagem/drama serie/justiça.jpg" class="imagem-carrossel">
+        <img src="imagem/drama serie/euphoria.jpg" class="imagem-carrossel">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <!---CARRROSEL FINAL -->
+
+  <!---CARRROSEL terror -->
+  <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+    <h2 class="titulo-carrossel">Filmes e serie de Terror</h2>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/Terror filme/ursinho pooh.jpg" class="imagem-carrossel">
+        <img src="imagem/Terror filme/halloween.jpeg" class="imagem-carrossel">
+        <img src="imagem/Terror filme/invocação do mal.jpeg" class="imagem-carrossel">
+        <img src="imagem/Terror filme/o exorcista de emily.jpeg" class="imagem-carrossel">
+        <img src="imagem/Terror filme/o exorcista do papa.jpeg" class="imagem-carrossel">
+        <img src="imagem/Terror filme/O exorcista.jpeg" class="imagem-carrossel">
+        <img src="imagem/Terror filme/terrifier.jpeg" class="imagem-carrossel">
+      </div>
+
+      <div class="carousel-item">
+        <img src="imagem/terror serie/american.jpeg" class="imagem-carrossel">
+        <img src="imagem/terror serie/cidade fantasma.jpeg" class="imagem-carrossel">
+        <img src="imagem/terror serie/dead.jpeg" class="imagem-carrossel">
+        <img src="imagem/terror serie/dracula.jpeg" class="imagem-carrossel">
+        <img src="imagem/terror serie/dramy.jpeg" class="imagem-carrossel">
+        <img src="imagem/terror serie/huting.jpeg" class="imagem-carrossel">
+        <img src="imagem/terror serie/supernatural.jpeg" class="imagem-carrossel">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <!---CARRROSEL FINAL -->
+
+  <!---CARRROSEL comedia -->
+  <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+    <h2 class="titulo-carrossel">Filmes e serie de Comedia</h2>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/Comedia filme/10 horas para o natal.jpeg" class="imagem-carrossel">
+        <img src="imagem/Comedia filme/amigo imaginario.jpg" class="imagem-carrossel">
+        <img src="imagem/Comedia filme/assasino por acaso.jpeg" class="imagem-carrossel">
+        <img src="imagem/Comedia filme/ideia de vc.jpg" class="imagem-carrossel">
+        <img src="imagem/Comedia filme/jogos de amor.jpg" class="imagem-carrossel">
+        <img src="imagem/Comedia filme/todos menos vc.jpg" class="imagem-carrossel">
+        <img src="imagem/Comedia filme/inions.jpg" class="imagem-carrossel">
+      </div>
+      
+      <div class="carousel-item">
+        <img src="imagem/comedia serie/family.jpeg" class="imagem-carrossel">
+        <img src="imagem/comedia serie/big.jpeg" class="imagem-carrossel">
+        <img src="imagem/comedia serie/chris.jpeg" class="imagem-carrossel">
+        <img src="imagem/comedia serie/eue a patroa.jpeg" class="imagem-carrossel">
+        <img src="imagem/comedia serie/friends.jpeg" class="imagem-carrossel">
+        <img src="imagem/comedia serie/nine nine.jpeg" class="imagem-carrossel">
+        <img src="imagem/comedia serie/the.jpeg" class="imagem-carrossel">
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <div id="carouselExampleControls5" class="carousel slide" data-ride="carousel">
+    <h2 class="titulo-carrossel">Filmes e series de romance</h2>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/Romance filmes/A culpa é das estrelas.jpg" class="imagem-carrossel">
+        <img src="imagem/Romance filmes/cinquenta tons de cinza.jpeg" class="imagem-carrossel">
+        <img src="imagem/Romance filmes/como eu era antes de vc.jpeg" class="imagem-carrossel">
+        <img src="imagem/Romance filmes/crepusculo amanhecer.jpg" class="imagem-carrossel">
+        <img src="imagem/Romance filmes/crepusculo New Moon .jpg" class="imagem-carrossel">
+        <img src="imagem/Romance filmes/Crepusculo.jpg" class="imagem-carrossel">
+        <img src="imagem/Romance filmes/titanic.jpg" class="imagem-carrossel">
+      </div>
+      
+      <div class="carousel-item">
+        <img src="imagem/romance series/brirginton.jpeg" class="imagem-carrossel">
+        <img src="imagem/romance series/emilly.jpeg" class="imagem-carrossel">
+        <img src="imagem/romance series/heartstoper.jpeg" class="imagem-carrossel">
+        <img src="imagem/romance series/love.jpeg" class="imagem-carrossel">
+        <img src="imagem/romance series/rainha.jpeg" class="imagem-carrossel">
+        <img src="imagem/romance series/river.jpeg" class="imagem-carrossel">
+        <img src="imagem/romance series/from.jpeg" class="imagem-carrossel">
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls5" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls5" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <div id="carouselExampleControls6" class="carousel slide" data-ride="carousel">
+    <h2 class="titulo-carrossel">Filmes de Ficção</h2>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/ficção filme/enigma do principe hp.jpg" class="imagem-carrossel">
+        <img src="imagem/ficção filme/HP calice de fogo.jpg" class="imagem-carrossel">
+        <img src="imagem/ficção filme/reliquias da morte.jpg" class="imagem-carrossel">
+        <img src="imagem/ficção filme/triangulo.jpeg" class="imagem-carrossel">
+        <img src="imagem/ficção filme/a origem.jpeg" class="imagem-carrossel">
+        <img src="imagem/ficção filme/interestelar.jpeg" class="imagem-carrossel">
+        <img src="imagem/ficção filme/a chegada (1).jpeg" class="imagem-carrossel">
+      </div>
+
+      <div class="carousel-item">
+        <img src="imagem/ficção serie/black.jpeg" class="imagem-carrossel">
+        <img src="imagem/ficção serie/dark.jpeg" class="imagem-carrossel">
+        <img src="imagem/ficção serie/o reinado.jpg" class="imagem-carrossel">
+        <img src="imagem/ficção serie/problema.jpeg" class="imagem-carrossel">
+        <img src="imagem/ficção serie/severance.jpeg" class="imagem-carrossel">
+        <img src="imagem/ficção serie/gotham (1).jpeg" class="imagem-carrossel">
+        <img src="imagem/ficção serie/fallout.jpeg" class="imagem-carrossel">
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls6" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls6" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <div id="carouselExampleControls7" class="carousel slide" data-ride="carousel">
+    <h2 class="titulo-carrossel">Filmes infantis</h2>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/infantil/a casa monstro.jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/bernado e bianca.jpeg" class="imagem-carrossel">
+        <img src="imagem/infantil/como treinar seu dragão.jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/Coraline e o Mundo Secreto.jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/crods.jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/era do gelo 1.jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/fantasia.jpeg" class="imagem-carrossel">
+      </div>
+
+      <div class="carousel-item">
+        <img src="imagem/infantil/hotel transilvania.jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/pets.jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/tinker bel.jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/Turbo (2013).jpg" class="imagem-carrossel">
+        <img src="imagem/infantil/lara lima.jpeg" class="imagem-carrossel">
+        <img src="imagem/infantil/viva (1).jpeg" class="imagem-carrossel">
+        <img src="imagem/infantil/meu amigo.jpeg" class="imagem-carrossel">
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls7" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls7" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  
+    
+  
+
+  
+
+  <div class="modal">
+    <div class="modal-conteudo">
+      <h2>Pretty Little Liar</h2>
+      <p>Depois do desaparecimento de Alison, as adolescentes Spencer, Aria, Hanna e Emily, 
+        agora no ensino médio, têm um novo desafio: desvendar mensagens anônimas ameaçando contar seus segredos.
+      </p>
+      <p>Gênero: <strong>Drama</strong></p>
+      <p>Ano de Lançamento: <strong>2010</strong></p>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="script_home.js">
+
+  </script>
+
+</body>
+
+</html>
